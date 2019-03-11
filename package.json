@@ -1,0 +1,26 @@
+{
+  "name": "eth_dapp_starter_kit",
+  "version": "1.0.0",
+  "description": "ethereum dapp starter kit",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prygan/eth_dapp_starter_kit.git"
+  },
+  "author": "<Your Name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prygan/eth_dapp_starter_kit/issues"
+  },
+  "homepage": "https://github.com/Prygan/eth_dapp_starter_kit#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
