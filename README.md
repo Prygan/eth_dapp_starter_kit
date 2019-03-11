@@ -124,3 +124,29 @@ Javascript embarque aussi un débugger. Plus d'infos [ici](https://developer.moz
 
 #### Erreurs de synchronisation dans metamask
 Quand vous commencerez à jouer avec des transactions Ethereum, metamask peut se désynchroniser entre deux sessions de développement. En effet, quand vous fermez puis réouvrez Ganache, la blockchain de dev est réinitialisée. Ce n'est pas le cas de Metamask, qui se retrouve alors désynchronisé. A ce stade, plus possible de faire de nouvelles transactions. Il faut alors aller dans Metamask, cliquer sur l'icone ronde du compte (en haut à droite), aller dans _paramètres_ et réinitialiser le compte.
+
+### Le projet en lui-même.
+Projet ~~copié~~ inspiré du projet ["Project #3: Ethereum de-centralized app"](http://cs251crypto.stanford.edu/18au-cs251/) proposé à Standford.
+
+L'idée du projet est de faire un version d'une application type pumpkin/triccount/splitwise.
+
+L'idée est de permettre à des personnes d'enregistrer leurs petites dépenses sur Ethereum. On peut partir de l'hypothèse que leur identifiant sera leur identifiant de compte sur Ethereum et qu'ils connaissent tous ceux de leurs amis.
+
+L'application devra à minima permettre de :
+- Enregistrer une transaction (avec des infos type : de qui ? vers qui ? Combien ? Quel motif ?)
+- Obtenir les soldes de chacun. Par exemple, si Alice a dépensé 10 euros pour elle et Bob, alors Bob doit 10 euros à Alice.
+
+Une fois ces premières fonctionnalités implémentées, il est possible d'en implémenter d'autres, par exemple :
+- Afficher la liste des utilisateurs avec qui j'ai dépensé de l'argent
+- Afficher le montant d'argent total de dépenses que j'ai enregistré
+- Rembourser directement via Ethereum (on pourra alors considérer dans un premier temps que la monnaie enregistrer est de l'Ether, pour éviter de devoir se poser des questions relatives aux changes Euros <> Eth)
+
+Des travaux supplémentaires pourraient aussi comprendre :
+- Amélioration du front
+- Stockage de factures / tickets de caisse en format image ou pdf sur un [IPFS](https://ipfs.io/)
+
+Vous êtes libre au niveau de l'implémentation. Commencez simple et complexifiez au fur et à mesure ! Il serait peut être intéressant dans un premier temps, par exemple, de juste afficher la liste des transactions. Il est important de planifier ces développements en petites versions (avec une date de rendu) et non pas juste "conception puis développement puis soutenance" (sinon l'échec est à prévoir...).
+
+N'oubliez pas que chaque appel de fonction sur Ethereum a un coût. Il faut donc minimiser le code executé coté Ethereum (_smart contracts_).
+
+Ces specifications sont relativement succintes. Pour plus d'informations et pour toute question, se référer au client (moi :)).
