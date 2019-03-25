@@ -66,7 +66,7 @@ Il est conseillé d'avoir une vision globale de ce qu'est Ethereum. On peut trou
 - La documentation de Solidity : [solidity](https://solidity.readthedocs.io/en/v0.5.5/)
 
 Se concentrer dans un premier temps sur les points suivant :
-- Qu'est ce qu'Ethereum ? [Voir ici](http://www.ethdocs.org/en/latest/introduction/what-is-ethereum.html). Une jolie inforgraphie pour celles et ceux qui disent qu'une image vaut mieux que milles mots : [infographie](https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png). Une autre introduction peut être trouvée sur le [wiki](https://github.com/ethereum/wiki/wiki/Ethereum-introduction#development) (ne lire que la partie _About Ethereum_).
+- Qu'est ce qu'Ethereum ? [Voir ici](http://www.ethdocs.org/en/latest/introduction/what-is-ethereum.html). Une jolie infographie pour celles et ceux qui disent qu'une image vaut mieux que milles mots : [infographie](https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png). Une autre introduction peut être trouvée sur le [wiki](https://github.com/ethereum/wiki/wiki/Ethereum-introduction#development) (ne lire que la partie _About Ethereum_).
 - Qu'est-ce qu'un _smart contract_ ? [Voir ici](http://www.ethdocs.org/en/latest/contracts-and-transactions/contracts.html#what-is-a-contract) (dans un premier temps, ne lire que les sections _What is a contract ?_, _Ethereum high level languages_, _Solidity_, _Interacting with a contract_). 
 - Initation au langage _solidity_ : [Voir ici](https://solidity.readthedocs.io/en/v0.5.5/solidity-by-example.html)
 
@@ -128,7 +128,7 @@ Quand vous commencerez à jouer avec des transactions Ethereum, metamask peut se
 ### Le projet en lui-même.
 Projet ~~copié~~ inspiré du projet ["Project #3: Ethereum de-centralized app"](http://cs251crypto.stanford.edu/18au-cs251/) proposé à Standford.
 
-L'idée du projet est de faire un version d'une application type pumpkin/triccount/splitwise.
+L'idée du projet est de faire un version d'une application type pumpkin/tricount/splitwise.
 
 L'idée est de permettre à des personnes d'enregistrer leurs petites dépenses sur Ethereum. On peut partir de l'hypothèse que leur identifiant sera leur identifiant de compte sur Ethereum et qu'ils connaissent tous ceux de leurs amis.
 
